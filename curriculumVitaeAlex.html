@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Alexis</title>
+	<meta http-equiv="Content-Type" content="text/html"; charset="UTF-8" />
+	<script type="text/javascript">
+		function CloseWindow() {
+    		var obj_window = window.open('', '_self');
+    		obj_window.opener = window;
+    		obj_window.focus();
+    		opener=self;
+    		self.close();
+		}
+	</script>
+
+</head>
+<body>
+<!--Présentation-->
+<h1>Alexis</h1>
+<p>adresse <br /> CP Ville <br /> France </p>
+
+<h3>Metier</h3>
+
+<!--Expérience Pro-->
+<ul> Expérience Professionnelle
+	<li>
+		Date
+		<ol type="circle">
+			<li>Description</li>
+		</ol>
+	</li>
+</ul>
+
+<!--Formation-->
+<ul> Formation
+	<li>
+		Date
+		<ol type="circle">
+			<li>Description</li>
+		</ol>
+	</li>
+</ul>
+
+<!--Informatique-->
+<ul> Informatique
+	<li>
+		Description
+	</li>
+</ul>
+
+<!--Langues-->
+<ul> Langues
+	<li>
+		laLangue
+		<ol type="circle">
+			<li>Niveau</li>
+		</ol>
+	</li>
+</ul>
+
+<!--Centres intérêts-->
+<ul> Centres d'intérêt
+	<li>
+		leCentre
+		<ol type="circle">
+			<li>Description</li>
+		</ol>
+	</li>
+</ul>
+
+<!--Fermer la page-->
+<input type="button" name="toto" id="toto" value="Fermer ce CV" onclick="CloseWindow();"/>
+</body>
+</html>
