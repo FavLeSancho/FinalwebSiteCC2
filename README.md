@@ -1,1 +1,3 @@
-# webSiteCC2
+#Designed by Fav&Flo.
+
+Touts droits réservés.
