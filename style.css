@@ -1,0 +1,30 @@
+.body
+{
+	display:flex;
+	justify-content: space-around;
+}
+
+
+.cv
+{
+	padding:6px 0 6px 0;
+	font:Bold 13px Arial;
+	background:#d34836;
+	color:#fff;
+	border-radius:2px;
+	border:none;
+	background-size: 100% 30%
+	background-repeat: no-repeat;
+}
+
+.contact
+{
+	padding:6px 0 6px 0;
+	font:Bold 13px Arial;
+	background:#d34836;
+	color:#fff;
+	border-radius:2px;
+	border:none;
+	background-size: 100% 30%
+	background-repeat: no-repeat;
+}
