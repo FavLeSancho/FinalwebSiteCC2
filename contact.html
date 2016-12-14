@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+	<meta charset="utf-8">
+	<title>Nous contacter</title>
+
+	<link rel="stylesheet" href="css/menu.css" />
+	<link rel="stylesheet" href="css/contact.css" />
+</head>
+
+<body>
+	<header>
+	<div id="menu">
+		<input type="checkbox" id="Affmenu" checked/>
+		<label for="Affmenu"><span>+</span></label>
+			<nav>
+			<ul>
+				<li>
+					<a href="index.html">Accueil</a>
+				</li>
+				<li>
+					<a href=#>Curriculum Vitaes</a>
+					<ul>
+						<li><a href="cvFlorian.html">CV Florian</a>
+						</li>
+						<li><a href="cvElie.html">CV Elie</a>
+						</li>
+						<li><a href="cvAlexis.html">CV Alexis</a>
+						</li>
+					</ul>
+				</li>
+				<li> <a href="contact.html">Contact</a> </li>
+			</ul>
+		</nav>
+	</div>
+	</header>
+	<section id="page">
+	<article>
+		<br/>
+		<h1>Formulaire de contact</h1>
+			<form action=# method="post" class="formulaire">
+			<fieldset>
+				<legend>Etape 1: Vos coordonnées</legend>
+				<p>
+					<span> Votre civilité : </span>
+					<input type="radio" name="civilite" id="civiliteM" value="M" checked="checked"/>
+					<label for="civiliteM">M</label>
+					<input type="radio" name="civilite" id="civiliteMme" value="Mme"  />
+					<label for="civiliteMme">Mme</label>
+				</p>
+							
+				<p>
+					<label for="nom" class="gauche">Nom :</Label>
+					<input type="text" id="nom" name="nom" required="required" placeholder="en majuscules, svp"/>
+				</p>
+							
+				<p>
+					<label for="Prenom" class="gauche">Prénom :</Label>
+					<input type="text" id="Prenom" name="Prenom" required="required"/>
+				</p>
+									
+				<p>
+					<label for="mail" class="gauche">e-mail :</Label>
+					<input type="email" id="mail" name="mail" required="required"/>
+				</p>
+							
+				<p>
+					<label for="date" class="gauche">Date de naissance :</Label>
+					<input type="date" id="date" name="dateNaissance" title="ex: '03/05/1993' pour '3 mai 1993'"/>
+				</p>
+				<p>
+					<label for="tel" class="gauche">numéro de teléphone :</Label>
+					<input type="tel" id="tel" name="tel" pattern="{0}[1-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]" maxlength="10" size="10" title="10 chiffres, sans espaces, ni points."/>
+				</p>
+				<span class="obligatoire">
+						Champs obligatoires
+				</span>
+			</fieldset>
+						
+			<fieldset>
+				<legend>Etape 2: Votre demande</legend>
+					<p>
+						<select>
+							<optgroup label="Félicitations">
+								<option>Félicitations pour le site</option>
+							</optgroup>
+							<optgroup label="Curriculum Vitae">
+								<option>Elie</option>
+								<option>Alexis</option>
+								<option>Florian</option>
+							</optgroup>
+						</select>
+					</p>
+							
+					<div>
+						<span>Vous avez connu notre site:</span>
+							<ul> 
+								<li>
+									<input type="checkbox" id="source1" name="source1" value="1" checked="checked">
+									<label for="source1">Par une recherche sur Google</label>
+								</li>
+								<li>
+									<input type="checkbox" id="source2" name="source2" value="1">
+									<label for="source2">En cliquant sur une bannière publicitaire</label>
+								</li>
+								<li>
+									<input type="checkbox" id="source3" name="source3" value="1">
+									<label for="source2">Sur les conseils d'un ami</label>
+								</li>
+								<li>
+									<input type="checkbox" id="source4" name="source4" value="1">
+									<label for="source4">Autre</label>
+								</li>
+							</ul>							
+					</div>
+				</fieldset>
+						
+				<fieldset>
+					<legend>Etape 3: Valider</legend>
+					<p>
+						<input type="submit" id="envoyer" name="envoyer" value="Envoyez !"/>
+
+					</p>
+				</fieldset>
+			</form>
+			<br/>
+    </article>
+	</section>
+		<a href="#top"><img src="ressources/fleche.jpg" alt="Flèche vers le haut"/></a>
+	<footer>
+		<p>
+		
+				Site créé par Alexis, Florian, et Elie</p>
+
+	</footer>
+
+</body>
+</html>
