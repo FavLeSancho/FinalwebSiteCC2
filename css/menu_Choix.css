@@ -1,0 +1,27 @@
+	/* GENERAL */
+
+#etape1 ~ img, #etape3 ~ img {
+	float: right;
+}
+
+
+	/* TITRES */
+
+h1 {
+	border-left:0.375rem solid #ffffff;
+	border-right:0.375rem solid #ffffff;
+}
+article > h2 {
+	width: 19rem;
+	margin: 1.5rem auto;
+	text-align: center;
+	border-bottom: 0.2rem solid black;
+	text-indent: 0;
+}
+
+h3::before {
+	padding-left: 2.5rem;
+}
+h3 {
+	font-style: italic;
+}

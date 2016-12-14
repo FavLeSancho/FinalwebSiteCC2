@@ -1,0 +1,40 @@
+
+
+label[for="nom"]:before,label[for="Prenom"]:before,label[for="mail"]:before,.obligatoire:before{
+	content:"*";
+}
+
+input[type="submit"]:hover{
+	cursor:pointer;
+}
+
+.gauche{
+	width:35%;
+	text-align:right;
+}
+
+input[type="submit"]{
+	width:7.5rem;
+	border:0.125rem solid black;
+	background-color:#f1c40f;
+	border-radius: 4.6875rem 4.6875rem 0.625rem 0.625rem/1.875rem 1.875rem 0.625rem 0.625rem;
+	margin-left: 40%;
+}
+
+ .gauche{
+	display:inline-block;
+}
+
+div span+ul{
+list-style:none;
+}
+
+h1,legend {
+border-left:0.375rem solid #f1c40f;
+border-right:0.375rem solid #f1c40f;
+}
+
+legend{
+    background:#3e3e3e;
+    color:white;
+}
